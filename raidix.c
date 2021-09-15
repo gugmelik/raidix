@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Test task in RAIDIX!")
+    printf("Test task in RAIDIX!");
     return 0;
 }
