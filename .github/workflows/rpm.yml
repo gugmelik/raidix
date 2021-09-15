@@ -3,7 +3,7 @@ on: push
 
 jobs:
   build:
-    runs-on: oracle-linux-8.4
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
 
