@@ -1,5 +1,5 @@
 # the compiler: gcc for C program, define as g++ for C++
-CC = g++
+CC = gcc
 
 # compiler flags:
 #  -g    adds debugging information to the executable file
@@ -11,8 +11,8 @@ TARGET = raidix
 
 all: $(TARGET)
 
-$(TARGET): $(TARGET).cpp
-	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp
+$(TARGET): $(TARGET).c
+	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
 
 install: $(TARGET)
 	mkdir -p $(DESTDIR)/usr/bin

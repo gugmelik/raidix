@@ -11,7 +11,7 @@ BuildRequires:  gcc
 BuildRequires:  make
 
 %description
-Raidix test task implemented in C++.
+Raidix test task implemented in C.
 
 
 %prep
