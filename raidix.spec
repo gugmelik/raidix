@@ -34,5 +34,6 @@ make %{?_smp_mflags}
 
 
 %changelog
-* Wed Sep 15 2021 Cloud User
+* Wed Sep 15 2021 gugmelik
+- first package
 
